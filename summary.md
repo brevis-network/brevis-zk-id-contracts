@@ -1,6 +1,6 @@
 # Onchain Implementation Summary
 
-Review of this standalone on-chain package (`src/`, `scripts/`, `test/`) against `docs/requirement/requirement_onchain.md` in the parent framework repository.
+Review of this standalone on-chain package (`src/`, `scripts/`, `test/`) against `docs/requirements.md`.
 
 **Result**: Fully implemented and aligned with the product requirement. All design decisions have been incorporated into the requirement.
 

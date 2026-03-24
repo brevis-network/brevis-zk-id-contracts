@@ -13,7 +13,7 @@ Use this file to orient work quickly and then defer to the canonical instruction
 
 ## Key References
 
-- Product source of truth: `docs/requirement/` in the parent framework repository (not included in this standalone package)
+- Product source of truth: `docs/requirements.md`
 - Canonical workflow and domain rules: `AGENTS.md`
 - Repository docs: `README.md`, `scripts/README.md`, `summary.md`
 

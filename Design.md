@@ -6,7 +6,7 @@ This file is a pointer. Canonical content lives in the requirement and implement
 
 | Document | What it covers |
 |----------|---------------|
-| [`docs/requirement/requirement_onchain.md`](docs/requirement/requirement_onchain.md) | Product requirement |
+| [`docs/requirements.md`](docs/requirements.md) | Product requirement |
 | [`README.md`](README.md) | Architecture, data model, flows, invariants, toolchain |
 | [`src/IIdentityRegistry.sol`](src/IIdentityRegistry.sol) | Interface — structs, errors, events, function signatures |
 | [`src/IdentityRegistry.sol`](src/IdentityRegistry.sol) | Implementation with inline NatSpec |

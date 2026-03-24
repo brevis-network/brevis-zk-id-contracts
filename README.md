@@ -25,7 +25,7 @@ A single `IdentityRegistry` contract handles all identity lifecycle operations:
 - **Query** — apps read the latest attestation data blob for a given wallet/provider/property.
 
 ### References
-- **Product requirement:** `docs/requirement/requirement_onchain.md` (maintained in the parent framework repository; not included in this standalone on-chain package)
+- **Product requirement:** [`docs/requirements.md`](docs/requirements.md)
 
 ---
 
