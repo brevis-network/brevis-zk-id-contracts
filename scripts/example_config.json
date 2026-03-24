@@ -1,0 +1,9 @@
+{
+    "proxyAdmin": {
+        "address": "0x0000000000000000000000000000000000000000"
+    },
+    "registry": {
+        "picoVerifier": "0x0000000000000000000000000000000000000000",
+        "implementationOnly": false
+    }
+}
