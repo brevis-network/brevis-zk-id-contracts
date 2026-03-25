@@ -12,7 +12,7 @@ Because this is intended to be a general-purpose framework, the supporting on-ch
 
 **IdentityProvider**: The identifier representing a Web 2 service, such as Binance, Github, and others. Each IdentityProvider’s unique user can only be bound once to a wallet address. A wallet address can be bound to only one unique user for each IdentityProvider. The user can bind different IdentityProviders at the same time. **Binding occurs strictly at the provider layer.**
 
-**IdentityProperty**: The unique identifier that represents a specific attribute or trait of a user as recognized by a given provider. Examples of such attributes include account age, user balance, or transaction history. This identifier is **provider-scoped** — even if two providers expose the same type of attribute (e.g., *account age*), they are assigned distinct identifiers — and is globally unique across all providers.
+**IdentityProperty**: The unique identifier that represents a specific attribute or trait of a user as recognized by a given provider. Examples of such attributes include account age, user balance, or transaction history. Although attributes may have similar business meaning across providers, each provider-property pair MUST use a distinct identityPropertyId. Therefore, identityPropertyId values are globally unique across all providers.
 
 **App**: An App is a downstream service or application that consumes a user’s IdentityProperty attributes to deliver personalized experiences or enforce service-specific policies.
 
