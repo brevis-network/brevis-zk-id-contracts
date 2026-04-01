@@ -8,6 +8,7 @@ This file is a pointer. Canonical content lives in the requirement and implement
 |----------|---------------|
 | [`docs/requirements.md`](docs/requirements.md) | Product requirement |
 | [`README.md`](README.md) | Architecture, data model, flows, invariants, toolchain |
+| [`docs/datablob-proof-configurations.md`](docs/datablob-proof-configurations.md) | Datablob schema and IdentityPropertyId catalog for app services |
 | [`src/IIdentityRegistry.sol`](src/IIdentityRegistry.sol) | Interface — structs, errors, events, function signatures |
 | [`src/IdentityRegistry.sol`](src/IdentityRegistry.sol) | Implementation with inline NatSpec |
 | [`summary.md`](summary.md) | Requirement coverage assessment |

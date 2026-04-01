@@ -8,8 +8,9 @@ On-chain identity registry for the BNB ZK ID framework. Binds Web2 identities to
 2. [Roles and Access Control](#2-roles-and-access-control)
 3. [Key Concepts](#3-key-concepts)
 4. [Flows](#4-flows)
-5. [Events and Observability](#5-events-and-observability)
-6. [Toolchain](#6-toolchain)
+5. [Proof Configurations by Data Source](#5-proof-configurations-by-data-source)
+6. [Events and Observability](#6-events-and-observability)
+7. [Toolchain](#7-toolchain)
 
 ---
 
@@ -153,7 +154,17 @@ Queries revert if the provider is unregistered, property is unrecognized, no act
 
 ---
 
-## 5. Events and Observability
+## 5. Proof Configurations by Data Source
+
+Detailed datablob output schema and IdentityPropertyId catalog are maintained in:
+
+- [docs/datablob-proof-configurations.md](docs/datablob-proof-configurations.md)
+
+Use this external document as the app-service reference for property identifiers, field typing, and output sentinels.
+
+---
+
+## 6. Events and Observability
 
 The registry emits events for all state-mutating operations:
 
@@ -171,7 +182,7 @@ Ownership, role, and pause events come from the inherited security library.
 
 ---
 
-## 6. Toolchain
+## 7. Toolchain
 
 | Item | Value |
 |------|-------|
